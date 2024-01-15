@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1000.0" data-gr-ext-installed="">
+
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">MusicalBox</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#fav-albums">Album preferiti</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#best-album-ever">Miglior album di sempre</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Es 1
+        Crea una sezione con Jumbotron e una breve spiegazione / immagine del sito. 
+    -->
+	<section id="jumbo-intro" class="position-relative">
+		<img class="bg-intro" src="assets/pexels-sebastian-ervi-1763075.jpg">
+		<div class="container">
+			<div class="jumbotron bg-transparent">
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">In questa pagina troverai alcune dei miei album preferiti</p>
+				<hr class="my-4">
+				<p>Non perderteli!</p>
+			</div>
+
+		</div>
+	</section>
+	<!-- Es 2
+        Usa una Card di Bootstrap per contenere ogni album nella lista dei preferiti che hai creato in precedenza.
+		Usa gli elementi che la card di Bootstrap ti fornisce per visualizzare correttamente elementi come: titolo dell’album, artista, anno, ecc..
+    -->
+
+	<!-- Es 3
+       Per ogni album nei preferiti aggiungi un badge nell’angolo in alto a destra col genere musicale. 
+    -->
+	<section id="fav-albums">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-6 col-md-4 col-lg-3 h-100">
+					<div class="album-container">
+						<div class="card bg-custom h-100">
+							<img src="assets/black-holes-and-revelations.jpg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">Black Holes and Revelations</h4>
+								<span class="album-artist">Muse</span>
+								<span class="badge bg-purple p-2">Rock</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets/end-of-aquarius.jpg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">End of Aquarius</h4>
+								<span class="album-artist">Droid Bishop</span>
+								<span class="badge bg-purple p-2">Synthwave</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets/II.jpeg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">Crystal Castles II</h4>
+								<span class="album-artist">Crystal Castles</span>
+								<span class="badge bg-purple p-2">Power Electronics</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets//it-takes-a-thief.jpeg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">It Takes A Thief</h4>
+								<span class="album-artist">Thievery Corporation</span>
+								<span class="badge bg-purple p-2">Acid Jazz</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets/black-holes-and-revelations.jpg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">Black Holes and Revelations</h4>
+								<span class="album-artist">Muse</span>
+								<span class="badge bg-purple p-2">Rock</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets/end-of-aquarius.jpg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">End of Aquarius</h4>
+								<span class="album-artist">Droid Bishop</span>
+								<span class="badge bg-purple p-2">Synthwave</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets/II.jpeg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">Crystal Castles II</h4>
+								<span class="album-artist">Crystal Castles</span>
+								<span class="badge bg-purple p-2">Power Electronics</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3">
+					<div class="album-container">
+						<div class="card bg-custom">
+							<img src="assets//it-takes-a-thief.jpeg" class="img-fluid">
+							<div class="card-body">
+								<h4 class="album-title">It Takes A Thief</h4>
+								<span class="album-artist">Thievery Corporation</span>
+								<span class="badge bg-purple p-2">Acid Jazz</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Es 4
+         Crea una nuova sezione con le tracce dell’album in una tabella di Bootstrap. 
+		 I colori delle linee della tabella dovranno essere alternati. 
+		 Dovrà esserci una colonna per il numero di traccia, titolo, nome artista, durata della traccia. (puoi aggiungerne anche altre) 
+    -->
+
+	<section id="best-album-ever">
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+					<img src="assets/la-revancha-del-tango.jpg" class="img-fluid" data-bs-toggle="collapse"
+						data-bs-target="#best-album-description">
+				</div>
+				<div id="best-album-description" class="col-12 col-md-8 collapse show">
+					<div class="d-flex flex-column justify-content-center h-100">
+						<h4>Gotan Project - La Revancha Del Tango</h4>
+						<div>
+							"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+						</div>
+						<div class="my-4">
+							<table class="table text-white">
+								<!-- <table class="table table-dark table-striped"> -->
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Titolo</th>
+										<th>Durata</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody class="tracklist">
+									<tr>
+										<th>1</th>
+										<td>Queremos Paz</td>
+										<td>5:15</td>
+
+										<!-- Es 5
+										Aggiungi un bottone “ELIMINA” di colore rosso (usa utility class di Bootstrap) al termine di ogni linea della lista. 
+										Attaccaci la funzionalità per rimuovere l’intera riga quando cliccato. (DOM manipulation)  
+										-->
+										<td class="text-right"><button class="btn btn-outline-danger"
+												onclick="removeClosest(event)">Elimina</button></td>
+
+									</tr>
+									<tr>
+										<th>2</th>
+										<td>Epoca</td>
+										<td>4:28</td>
+										<td class="text-right"><button class="btn btn-outline-danger"
+												onclick="removeClosest(event)">Elimina</button></td>
+									</tr>
+									<tr>
+										<th>3</th>
+										<td>Chunga's Revenge</td>
+										<td>5:02</td>
+										<td class="text-right"><button class="btn btn-outline-danger"
+												onclick="removeClosest(event)">Elimina</button></td>
+									</tr>
+								</tbody>
+							</table>
+							<div>
+								<!-- Es 6
+        						Crea un bottone “Aggiungi traccia” sotto alla tabella delle tracce.
+								Dovrà avere una transizione di stile per aggiungergli un’ombra quando il bottone riceve l’hover. (box-shadow) 
+								Dovrà dare come minimo l’impressione di elevarsi da un piano. (aggiungi altri effetti a piacimento)
+    							-->
+								<button class="btn bg-purple btn-shadow" data-toggle="modal"
+									data-target="#add-track-modal">
+									Aggiungi Traccia </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 mx-auto d-none">
+					<h4>Contact Me</h4>
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<div class="d-flex">
+						<button class="btn btn-outline-light mx-auto">Send me a message</button>
+					</div>
+				</div>
+				<div class="col-12 text-center">
+					<h3>Go to:</h3>
+				</div>
+				<div class="col-12 text-center">
+					<ul class="pl-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#fav-albums">Favourite Albums</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#best-album-ever">Best album ever</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Es 7
+	Quando “Aggiungi traccia” viene premuto dovrà comparire un modale.
+    (fai riferimento all’esempio di modale collegato al click di un bottone)
+      
+	Il modale dovrà contenere input singoli (no <form>) con:
+	Numero della traccia
+	Titolo della traccia
+	Nome dell’artista
+	Durata della traccia
+	I campi dovranno essere raggruppati e divisi in due colonne
+
+    -->
+
+	<!-- MODAL -->
+	<div class="modal fade" id="add-track-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog " style="max-width: 700px">
+			<div class="modal-content bg-purple">
+				<div class="modal-header border-0">
+					<h5 class="modal-title" id="exampleModalLabel">Aggiungi una nuova traccia</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+						<span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-6">
+								<div class="input-group mb-3">
+									<input required id="trackN" type="text" class="form-control" placeholder="Nr.">
+									<input id="trackName" type="text" class="form-control w-50" placeholder="Nome">
+								</div>
+								<div class="input-group mb-3">
+									<input id="duration" type="text" class="form-control" placeholder="Durata">
+									<input id="feats" type="text" class="form-control w-50" placeholder="Featuring">
+								</div>
+
+							</div>
+							<div class="col-6">
+								<div class="form-check">
+									<input id="modalCheckbox" class="form-check-input" type="checkbox" value="">
+									<label class="form-check-label" for="modalCheckbox" style="cursor: pointer">
+										Performance live?
+									</label>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- EXTRA Il modale dovrà contenere due bottoni in basso:
+						Aggiungi => Aggiungerà una nuova traccia nella tabella con i dati estratti dagli input del modale. (DOM manipulation)
+						Chiudi => Chiuderà il modale e resetterà i campi.
+				-->
+
+				<div class="modal-footer border-0">
+					<button type="button" class="btn btn-link" onclick="clearFields()"
+						data-dismiss="modal">Chiudi</button>
+					<button type="button" class="btn bg-fuxia" onclick="addNewTrack()">Aggiungi</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- EXTRA continua qui...
+        Quando una nuova traccia viene aggiunta, notifica l’utente con un messaggio dentro un alert contenente il nome della traccia appena aggiunta.
+     -->
+	<!-- ALERT -->
+	<div class="alert alert-success alert-message d-none" role="alert">
+		A simple success alert—check it out!
+	</div>
+
+	<script>
+
+		// EXTRA CSS - Crea un effetto fade-in per il jumbotron dell’Es. 1, l’animazione dovrà avvenire al caricamento della pagina. Usa JavaScript per farlo iniziare al momento giusto.
+
+		window.onload = function () {
+			const jumbotron = document.getElementById("jumbo-intro")
+			jumbotron.classList.add("show")
+		}
+		const bsAlert = document.querySelector(".alert.alert-success")
+
+		function removeClosest(e) {
+			const removedAlbumTitle = e.target.closest("tr").querySelector("td:first-of-type").innerText
+			// visualizza l'alert
+			bsAlert.innerHTML = "You successfully removed " + "<strong>" + removedAlbumTitle + "</strong>"
+
+			const tr = e.target.closest("tr")
+
+			// <!-- 
+			// Per i bottoni ELIMINA creati nell’Es. 5, 
+			// fai in modo che sia visibile solo uno per volta quando la sua corrispondente linea riceve l’hover dell’utente. 
+			// Anima la comparsa del bottone con un effetto di fade-in / fade-out.
+
+			// -->
+			tr.classList.add("fade-out") // per fare il fade-out del tr prima di rimuoverlo dal DOM
+
+			setTimeout(function () {
+				e.target.closest("tr").remove() // rimuove il tr dalla tabella dopo il fade-out
+			}, 1000)
+
+			bsAlert.classList.remove("d-none")
+			setTimeout(function () {
+				bsAlert.classList.add("slide-in", "fade-in")
+			}, 50)
+
+
+			// qui l'alert di bootstrap comparirà con un fade-out--long 
+			//e alla fine le classi verranno rimosse per permettere al prossimo alert di ricominciare da zero l'animazione
+
+			setTimeout(function () {
+				bsAlert.classList.add("fade-out--long", "fade-out")
+			}, 2000)
+			setTimeout(function () {
+				bsAlert.classList.add("d-none")
+			}, 3200)
+			setTimeout(function () {
+				bsAlert.classList.remove("fade-out--long", "fade-out", "slide-in")
+			}, 3300)
+
+
+		}
+
+		function addNewTrack() {
+			const trackNum = document.querySelector("#trackN").value
+			const trackName = document.querySelector("#trackName").value
+			const duration = document.querySelector("#duration").value
+			const feats = document.querySelector("#feats").value
+			const isLive = document.querySelector("#modalCheckbox").checked
+
+			if (!trackNum || !trackName || !duration) {
+				// se i campi richiesti non sono stati inseriti l'esecuzione si fermerà qui e un avviso verrà mostrato all'utente
+				alert("Compila i campi richiesti prima di procedere.")
+			} else {
+
+				$('#add-track-modal').modal('hide') // ## sintassi di jQuery ## nasconde il modale come se un bottone <button data-dismiss="modal"> fosse stato premuto
+
+				const newTr = document.createElement("tr")
+
+				// la nuova riga da aggiungere nella tabella apparirà con un effetto di fade-in 				
+				newTr.classList.add("fade-in")
+
+				let modalData = [trackNum, trackName, duration]
+
+				// Crea i necessari td e aggiunge le informazioni prese dagli input del modale
+				for (let i = 0; i < modalData.length; i++) {
+					const currentField = modalData[i]
+					const td = document.createElement("td")
+					td.innerText = currentField
+
+					newTr.appendChild(td)
+				}
+
+				// Crea il bottone ELIMINA e lo aggiunge alla riga
+				const button = document.createElement("button")
+				button.classList.add("btn")
+				button.classList.add("btn-outline-danger")
+
+				// Attacca la funzionalità removeClosest al bottone ELIMINA, funzionalità che è stata creata in cima a questo file
+				button.addEventListener("click", removeClosest)
+
+				button.innerText = "Elimina"
+
+				const td = document.createElement("td")
+				td.classList.add("text-right")
+
+				td.appendChild(button)
+				newTr.appendChild(td)
+				document.querySelector(".tracklist").appendChild(newTr)
+
+				//Visualizza l'alert con il messaggio
+				bsAlert.innerText = "Nuova riga aggiunta alla tabella"
+				bsAlert.classList.toggle("d-none")
+
+				// ## aspetta 50ms prima di applicare l'effetto di transizione. ##
+				// un elemento con "display: none;"" in precedenza non può venire animato immediatamente.
+				// Alcuni millisecondi saranno sufficienti a permettere all'elemento di tornare visibile e accettare la transizione al nuovo stato.
+				setTimeout(function () {
+					bsAlert.classList.add("slide-in", "fade-in")
+				}, 50)
+
+
+				// Rimuove le classi precedenti per resettare lo stato delle animazioni, per permettere agli elementi di ricevere di nuovo l'animazione con la prossima azione collegata alla visualizzazione dell'avviso.
+				setTimeout(function () {
+					newTr.classList.remove("fade-in");
+					bsAlert.classList.remove("slide-in", "fade-in")
+
+				},
+					2500)
+			}
+		}
+
+		// 	<!-- 
+		// 	Il tasto chiudi resetterà i campi
+		//  -->
+		function clearFields() {
+			document.querySelector("#trackN").value = ""
+			document.querySelector("#trackName").value = ""
+			document.querySelector("#duration").value = ""
+			document.querySelector("#feats").value = ""
+			document.querySelector("#modalCheckbox").checked = false
+		}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

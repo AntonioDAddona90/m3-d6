@@ -1,0 +1,204 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(45deg, rgba(37, 0, 64, 1) 0%, rgba(67, 88, 116, 1) 100%);
+  background-attachment: fixed;
+  color: white;
+}
+
+nav {
+  background-color: rgba(26, 16, 34, 0.72);
+  height: 7vh;
+}
+
+section {
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* utility classes */
+.bg-purple {
+  background-color: #250040;
+  color: white;
+}
+
+.btn.bg-purple:hover {
+  color: #eb2c94;
+}
+
+.bg-fuxia {
+  background-color: #eb2c94;
+  color: #250040;
+}
+
+.btn.bg-fuxia:hover {
+  color: white;
+}
+
+.btn-shadow {
+  transition: all 0.3s ease;
+}
+
+.btn-shadow:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px #34005a;
+}
+
+/* EX 1 */
+
+#jumbo-intro {
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+#jumbo-intro.show {
+  opacity: 1;
+}
+
+.bg-intro {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* EX 2 */
+/* Use a Bootstrap Card to contain every album in the favorite list you previously created. */
+/* Use the elements of a card bootstrap gives you, to display nicely the album information such as: album title, artist, year, etc.. */
+
+.bg-custom {
+  background-color: #0000004d;
+}
+
+.album-container {
+  text-align: center;
+  padding-bottom: 1em;
+  margin: 1em;
+}
+
+.album-container .card-body {
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.album-container .card-body h4 {
+  margin-top: 0px;
+}
+
+.album-container img {
+  width: 100%;
+}
+
+.album-artist:after {
+  content: " • ";
+}
+
+.album-title {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  font-size: 1.3em;
+}
+
+/* EX 3 */
+.album-container .badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.badge.bg-purple {
+  background-color: #5b009c;
+}
+
+/* EX 4 */
+
+table thead tr {
+  background-color: transparent;
+  border: none;
+}
+table tbody tr {
+  background-color: #34005a;
+}
+table tbody tr:nth-of-type(odd) {
+  background-color: #250040;
+}
+
+.table thead th,
+.table tbody th,
+.table thead td,
+.table tbody td {
+  border: none;
+  /* resets table's borders */
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+/* EXERCISE 5.EXTRA */
+.tracklist tr button {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.tracklist tr:hover button {
+  opacity: 1;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  color: white;
+}
+
+.alert-message {
+  position: fixed;
+  bottom: 3em;
+  left: 3em;
+  width: 30%;
+  opacity: 0;
+  transform: translateX(-200%);
+  transition: all 1s;
+}
+
+/* modal close X btn to be visible on dark background*/
+.close {
+  filter: invert(1);
+}
+
+/* Animations */
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-out--long {
+  transition-duration: 2s;
+}
+
+.slide-in {
+  transform: translateX(0%);
+}
